@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore sample academic, database, and logistics projects by Abraham Ochoupu Sunday.">
+  <title>Projects | Abraham Ochoupu Sunday</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="brand" href="index.html" aria-label="Abraham Ochoupu Sunday home">
+        <span class="brand-mark" aria-hidden="true">AS</span>
+        <span>Abraham Sunday</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a class="active" href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="container inner-page">
+    <header class="page-intro">
+      <p class="eyebrow">Selected work</p>
+      <h1>Projects</h1>
+      <p class="page-lead">A selection of academic and sample projects combining web development, database skills, and logistics experience.</p>
+    </header>
+
+    <section class="projects-grid" aria-label="Project portfolio">
+      <article class="project-card" id="project-portfolio" tabindex="0" aria-haspopup="dialog" aria-controls="project-modal" data-title="Student Academic Portfolio" data-category="Web development" data-image="assets/project1.jpg" data-description="A responsive student portfolio built with HTML, CSS, and Vanilla JavaScript for Miva Open University (COS 106). The site presents academic background, selected work, and contact information in a clear, accessible layout that adapts to mobile and desktop screens." data-tags="HTML,CSS,JavaScript" data-github="">
+        <img class="project-image project-image-portfolio" src="assets/project1.jpg" alt="Student Academic Portfolio">
+        <div class="project-content">
+          <p class="project-category">Web development</p>
+          <h2>Student Academic Portfolio</h2>
+          <p>A responsive student portfolio built with HTML, CSS, and Vanilla JavaScript for Miva Open University (COS 106).</p>
+          <span class="text-link">View Project <span aria-hidden="true">→</span></span>
+        </div>
+      </article>
+
+      <article class="project-card" id="project-database" tabindex="0" aria-haspopup="dialog" aria-controls="project-modal" data-title="Database Management Setup" data-category="Database" data-image="assets/project2.jpg" data-description="A sample local database configuration and query-formulation project using MySQL Server and MySQL Workbench. It covers setting up a database environment, organizing structured information, and preparing queries for common data-management tasks." data-tags="MySQL,MySQL Server,MySQL Workbench,SQL" data-github="">
+        <img class="project-image project-image-database" src="assets/project2.jpg" alt="Database Management Setup">
+        <div class="project-content">
+          <p class="project-category">Database</p>
+          <h2>Database Management Setup</h2>
+          <p>A sample local database configuration and query-formulation project using MySQL Server and MySQL Workbench.</p>
+          <span class="text-link">View Project <span aria-hidden="true">→</span></span>
+        </div>
+      </article>
+
+      <article class="project-card" id="project-logistics" tabindex="0" aria-haspopup="dialog" aria-controls="project-modal" data-title="Fleet Logistics &amp; Translation Workflow" data-category="Operations and translation" data-image="assets/project3.jpg" data-description="A simulated data-entry and operations-tracking dashboard concept for international truck maintenance and cargo transport. The workflow brings together fleet dispatch, driver coordination, logistics record keeping, and Chinese-English interpretation to support day-to-day operations." data-tags="Logistics,Fleet Operations,Data Entry,Chinese-English Translation" data-github="">
+        <img class="project-image project-image-logistics" src="assets/project3.jpg" alt="Fleet Logistics &amp; Translation Workflow">
+        <div class="project-content">
+          <p class="project-category">Operations and translation</p>
+          <h2>Fleet Logistics &amp; Translation Workflow</h2>
+          <p>A simulated data-entry and operations-tracking dashboard concept for international truck maintenance and cargo transport.</p>
+          <span class="text-link">View Project <span aria-hidden="true">→</span></span>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="current-year">2026</span> Abraham Ochoupu Sunday</p>
+      <p>B.Sc. Data Science student · Nigeria</p>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" id="project-modal" aria-hidden="true">
+    <section class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-description" tabindex="-1">
+      <button class="modal-close" type="button" aria-label="Close project details">&times;</button>
+      <img class="modal-image" src="" alt="">
+      <div class="modal-body">
+        <p class="modal-category"></p>
+        <h2 id="modal-title"></h2>
+        <p class="modal-description" id="modal-description"></p>
+        <ul class="modal-tags" aria-label="Technologies and skills"></ul>
+        <a class="modal-source-link" href="" target="_blank" rel="noopener noreferrer" hidden>View Source Code on GitHub</a>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
